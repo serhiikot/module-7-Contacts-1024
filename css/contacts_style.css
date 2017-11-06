@@ -10,10 +10,10 @@
 }
 
 /* -----------GOOGLE MAP----------- */
-.googleMapIn {
+.googleMap {
     width: 50%;
 }
-.googleMapInHeader,
+.googleMapHeader,
 .sendMessageHeader {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 2rem;
@@ -21,7 +21,9 @@
     margin-bottom: 50px;
     text-transform: uppercase;
     color: var(--main-font-color);
-
+}
+.googleMapEmbeded {
+    margin-top: 20px;
 }
 /* _________END OF GOOGLE MAP______ */
 
