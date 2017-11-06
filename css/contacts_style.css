@@ -1,0 +1,109 @@
+@import url(../css/common_style.css);
+:root {
+    --table-text-color: #666565;
+    --mail-link-color: #fa7e7e;
+}
+.contentArea {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+/* -----------GOOGLE MAP----------- */
+.googleMapIn {
+    width: 50%;
+}
+.googleMapInHeader,
+.sendMessageHeader {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: var(--main-font-color);
+
+}
+/* _________END OF GOOGLE MAP______ */
+
+
+
+/* --------TABBLE---------- */
+.contactsTable {
+    width: 23%;
+    padding-top: 135px;
+}
+.contactsTable caption {
+    text-align: left;
+    height: 50px;
+}
+
+.marmoraRoad,
+.stVincentPlace {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'ArialRegular', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--table-text-color);
+}
+.stVincentPlace {
+    margin-top: 50px;
+}
+.marmoraRoadMail, 
+.stVincentPlaceMail {
+    color: var(--mail-link-color)!important;
+}
+.marmoraRoad a,
+.stVincentPlace a {
+    text-decoration: none;
+    color: var(--table-text-color);
+}
+/* _________END OF TABBLE______ */
+
+
+/* -------------MESAGGER FORM---------- */
+.sendMessage {
+    width: 23%;
+}
+.sendMessage input {
+    width: 95%;
+    height: 1.5rem;
+    margin-top: 20px;
+    padding-left: 8px;
+    font-family: 'ArialRegular', sans-serif;
+    font-size: 0.8rem;
+    color: var(--main-font-color);
+    background-color: #fbf6f8;
+    border: 1px solid #d4d0d0;
+}
+.sendMessage textarea {
+    margin-top: 20px;
+    width: 92%;
+    height: 230px;
+    resize: none;
+    padding: 8px 8px 8px 8px;
+    font-family: 'ArialRegular', sans-serif;
+    font-size: 0.8rem;
+    color: var(--main-font-color);
+    background-color: #fbf6f8;
+    border: 1px solid #d4d0d0;
+
+}
+.sendMessage input:nth-of-type(4),
+.sendMessage input:nth-of-type(5) {
+    width: 30%;
+    font-family: 'ArialRegular', sans-serif;
+    font-size: 1rem;
+    background-color: #fbf6f8;
+    border: 1px solid #b1aaaa;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+}
+.sendMessage input:nth-of-type(4) {
+    margin-left: 50px;
+   
+}
+.sendMessage input:nth-of-type(5) {
+    margin-left: 25px;
+}
+/* _______END OF MESAGGER FORM_______ */
