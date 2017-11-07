@@ -31,7 +31,6 @@ header {
 /* ================MAIN=============== */
 
 main {
-    position: relative;
     max-width: 1024px;
     margin: auto;
     padding: 75px 61px 75px 61px;
@@ -66,7 +65,6 @@ main {
 
 /* ----------------ВЕРХНЕЕ МЕНЮ------------- */
 nav {
-    position: relative;
     display: flex;
     padding: 0 90px 0 90px;
     max-width: 100%;
